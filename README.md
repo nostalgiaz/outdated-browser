@@ -35,10 +35,10 @@ That's it! As simple as it can get.
     <div id="outdated"></div>
     ```
 
-
 4. Call the plugin by placing the following at the bottom of the HTML body:
-<br><br>
-— Plain Javascript <br>
+
+    — Plain Javascript
+
     ```javascript
     //event listener: DOM ready
     function addLoadEvent(func) {
@@ -64,8 +64,9 @@ That's it! As simple as it can get.
         })
     });
     ```
-<br>
-— Using jQuery (version that supports IE&lt;9) <br>
+
+    — Using jQuery (version that supports IE&lt;9)
+
     ```javascript
     $( document ).ready(function() {
         outdatedBrowser({
